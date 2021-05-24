@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Vigenère Breaker</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Overpass+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">
+        html, body, #vigenere-breaker, .vigenere-root {
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            font-family: 'Lexend', sans-serif;
+            font-size: 99%;
+        }
+        .vigenere-root {
+            display: grid;
+            grid-template:
+                    "main" 1fr
+                    "footer" 37px;
+        }
+        .vigenere-root main {
+            grid-area: main;
+            overflow: auto;
+        }
+        .vigenere-root footer {
+            grid-area: footer;
+            border-top: solid 1px #888;
+            padding-top: 3px;
+        }
+        .mapped {
+            color: red;
+        }
+        .unmapped {
+            color: inherit;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .plaintext-grid {
+            font-family: 'Overpass Mono', monospace;
+        }
+        .vigenere-slider {
+            display: flex;
+            align-items: stretch;
+        }
+        .vigenere-slider-letters {
+            flex-grow: 1;
+            font-size: 180%;
+            text-align: center;
+            font-family: 'Overpass Mono', monospace;
+        }
+        .vigenere-slider-bottom {
+            border-top: solid 1px black;
+        }
+        .vigenere-slider-left, .vigenere-slider-right {
+            display: flex;
+            align-items: center;
+        }
+        .notes {
+            font-family: 'Overpass Mono', monospace;
+            white-space: pre;
+            overflow-wrap: normal;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+<script src="vigenere-breaker.js"></script>
+<div id="vigenere-breaker">
+    Please wait while the JavaScript loads...
+    <noscript>You do not appear to have JavaScript enabled. JavaScript is required for this app to work.</noscript>
+</div>
+</body>
+</html>
