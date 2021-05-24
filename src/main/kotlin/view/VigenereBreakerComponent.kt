@@ -253,8 +253,12 @@ class VigenereBreakerComponent(props: VigenereBreakerRProps) : RComponent<Vigene
 							+")"
 						}
 						div(classes = "col-2") {
-							button(type = ButtonType.button, classes = "btn btn-primary btn-sm") {
+							a(classes = "btn btn-primary btn-sm") {
 								+"What the heck is this?"
+								attrs {
+									href = "https://www.youtube.com/watch?v=6qXFwH_JXeY"
+									target = "_blank"
+								}
 							}
 						}
 					}
