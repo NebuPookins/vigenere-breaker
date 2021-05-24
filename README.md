@@ -10,7 +10,13 @@ relatively weak by modern standards, and thus can often be automatically fully s
 want a tool that just automatically solves the cipher for you, **this is not the tool for you**. Consider using
 [Boxentriq's solver](https://www.boxentriq.com/code-breaking/vigenere-cipher)'s "Auto Solve" feature instead.
 
-But if you want to have fun participating in the solving process, then you might enjoy using this tool!
+But if you want to have fun participating in the solving process, then you might enjoy using this app!
+
+Here is a Youtube video demonstrating how to use the app:
+
+[![Watch the video](https://img.youtube.com/vi/6qXFwH_JXeY/hqdefault.jpg)](https://youtu.be/6qXFwH_JXeY)
+
+And the app itself is at https://nebupookins.github.io/vigenere-breaker/
 
 ## Roadmap
 
