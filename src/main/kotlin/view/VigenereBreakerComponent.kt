@@ -250,7 +250,14 @@ class VigenereBreakerComponent(props: VigenereBreakerRProps) : RComponent<Vigene
 									target = "_blank"
 								}
 							}
-							+")"
+							+") "
+							a {
+								+"GitHub Repo"
+								attrs {
+									href = "https://github.com/NebuPookins/vigenere-breaker"
+									target = "_blank"
+								}
+							}
 						}
 						div(classes = "col-2") {
 							a(classes = "btn btn-primary btn-sm") {
