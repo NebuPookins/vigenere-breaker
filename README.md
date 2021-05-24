@@ -1,6 +1,6 @@
 # Vigenère Breaker
 
-A web app to help you crack Vigenère ciphers.
+A web app to help you crack Vigenère ciphers. Try it out at https://nebupookins.github.io/vigenere-breaker/
 
 ## What is this?
 
